@@ -18238,35 +18238,6 @@
                     "ir"
                 ],
                 "outbound": "bypass"
-            },
-            {
-                "geoip": [
-                    "ir"
-                ],
-                "ip_cidr": [
-                    "192.168.0.0\/16"
-                ],
-                "outbound": "bypass"
-            },
-            {
-                "geosite": [
-                    "category-ads-all",
-                    "category-public-tracker"
-                ],
-                "outbound": "block"
-            },
-            {
-                "ip_cidr": [
-                    "224.0.0.0\/3",
-                    "ff00::\/8",
-                    "10.10.34.34\/29"
-                ],
-                "source_ip_cidr": [
-                    "224.0.0.0\/3",
-                    "ff00::\/8",
-                    "10.10.34.34\/29"
-                ],
-                "outbound": "block"
             }
         ]
     }
